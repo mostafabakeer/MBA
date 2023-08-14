@@ -17,7 +17,7 @@ export default function Footer(params) {
          className="linke" href="#langPage">level </Link>
         
          <Link
-         className="linke" href="http://localhost:3000/#Abo">Aboute </Link>
+         className="linke" href="#Abo">Aboute </Link>
          
       
 
