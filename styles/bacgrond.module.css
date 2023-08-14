@@ -1,0 +1,12 @@
+.bg {
+  background-image: url("/bakeer2/public/banner-bg-15.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  color: blue;
+}
+.br {
+  background-color: aqua;
+  color: blue;
+}
