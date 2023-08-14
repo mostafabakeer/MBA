@@ -118,14 +118,10 @@ export default function Home() {
            
         </div>
       <div className=" ">
-      <div div className="images ">
-          <div>
-            <Image src={poto} data-aos="fade-right" className="m1 w-32" />
-          </div>
-        </div>
+     
       </div>
         <div id="Abo" className="aboute">
-          <About></About>
+          {/* <About></About> */}
         
     
         </div>

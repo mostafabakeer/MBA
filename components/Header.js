@@ -15,7 +15,7 @@ export default function Header(params) {
       
      
         <nav class="navbar navbar-black w-full  ">
-          <div class="container-fluid w-full">
+          <div class="container-fluid w-full fixed-top" >
             <Link class="navbar-brand" href="/"> <span className="m" >M</span>uostaf <span className="m">B</span>akeer</Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
               aria-controls="offcanvasNavbar">
