@@ -154,7 +154,7 @@ export default function lang(params) {
               </span>
             </div>
           </div>
-          <div className="mm2 m-auto text-center    " data-aos="fade-right">
+          <div className="mm2 m-auto text-center   "data-aos="fade-right">
             <Image src={next} alt="" />
             <div className="mm3">
               <span>
@@ -182,7 +182,6 @@ export default function lang(params) {
               </span>
             </div>
           </div>{" "}
-          
         </div>
       </div>
     </div>

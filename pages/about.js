@@ -10,7 +10,7 @@ import my3 from '../public/photo/my3.jpg';
 import Link from "next/link";
 
 export default function about(params) {
-return(<div   className="bodyA">
+return(<div   className="bodyA w-screen">
        <div className="slid  ">
            <div id="carouselId" class="carousel slide   " data-bs-ride="carousel">
                <ol class="carousel-indicators">

@@ -1,13 +1,14 @@
 import loogg from "../public/photo/Picsart_23-08-08_20-45-51-530.png";
 import bgimg from "../public/photo/cardmy.jpg";
 import { TypeAnimation } from "react-type-animation";
- 
+import poto from "../public/photo/myphoto.png";
 import Image from "next/image";
 import About from "./about";
 import Cv from "../public/photo/448-252.jpeg";
 import { Inter } from "next/font/google";
 import M from "./m";
 import Lang from "../pages/lang";
+import Link from "next/link";
 import Aos from "aos";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,6 +29,8 @@ export default function Home() {
           style={{ fontSize: "1em", display: "inline-block" }}
         />
       </div>
+       
+        </div>
         <div className="coloa    ">
           <div className="bodyy   mt-20 font-semibold   ">
             <div className="imgecont  h-52">
@@ -112,15 +115,33 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="langPage" className=" langPage">
-            <Lang></Lang>
+           
+        </div>
+      <div className=" ">
+      <div div className="images ">
+          <div>
+            <Image src={poto} data-aos="fade-right" className="m1 w-32" />
           </div>
         </div>
-       
+      </div>
         <div id="Abo" className="aboute">
           <About></About>
+        
+    
         </div>
+        <div className="footer fixed-bottom w-full h-16 B">
+      <div className="bodyfot  justify-normal text-center  ">
+        
+         <Link className="linke  " href= "/"> Home </Link>
+          
+         <Link className="linke" href="lang">level </Link>
+        
+         <Link className="linke" href=" #Abo">Aboute </Link>
+         
+      
+
       </div>
+    </div>
     </>
   );
 }
